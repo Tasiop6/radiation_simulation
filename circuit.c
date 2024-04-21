@@ -1,7 +1,7 @@
 /*****************************************************/
 /*                                                   */
-/* Created By George Papageorgiou                    */
-/* AEM: 2600                                         */
+/* Created By Konstantinos Tasiopoulos               */
+/* AEM:02936                                         */
 /* Sxediasmos kiklwmatwn gia iontizonta perivalonta  */
 /*                                                   */
 /*****************************************************/ 
