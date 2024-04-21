@@ -1,0 +1,356 @@
+  DFF_X1 DFF_5 
+ .D(G56), .CK(CK)
+(n84), .QN(n72)
+D_Flif_Flop
+  DFF_X1 DFF_6 
+ .D(G86), .CK(CK)
+(G66)
+D_Flif_Flop
+  DFF_X1 DFF_7 
+ .D(G92), .CK(CK)
+(G67), .QN(n73)
+D_Flif_Flop
+  DFF_X1 DFF_8 
+ .D(G98), .CK(CK)
+(G117)
+D_Flif_Flop
+  DFF_X1 DFF_9 
+ .D(G102), .CK(CK)
+(G118), .QN(n78)
+D_Flif_Flop
+  DFF_X1 DFF_10 
+ .D(G107), .CK(CK)
+(G132)
+D_Flif_Flop
+  DFF_X1 DFF_11 
+ .D(G113), .CK(CK)
+(G133)
+D_Flif_Flop
+  DFF_X1 DFF_0 
+ .D(G29), .CK(CK)
+(n3), .QN(n83)
+D_Flif_Flop
+  DFF_X1 DFF_12 
+ .D(G119), .CK(CK)
+(n16), .QN(n77)
+D_Flif_Flop
+  DFF_X1 DFF_13 
+ .D(G125), .CK(CK)
+(n17), .QN(n76)
+D_Flif_Flop
+  DFF_X1 DFF_1 
+ .D(G30), .CK(CK)
+(n7), .QN(n81)
+D_Flif_Flop
+  DFF_X1 DFF_2 
+ .D(G34), .CK(CK)
+(n10), .QN(n80)
+D_Flif_Flop
+  DFF_X1 DFF_3 
+ .D(G39), .CK(CK)
+(n11), .QN(n82)
+D_Flif_Flop
+  DFF_X1 DFF_4 
+ .D(G44), .CK(CK)
+(n13), .QN(n79)
+D_Flif_Flop
+  OR2_X1 U86 
+ .A1(n84), .A2(n33)
+N(n69)
+OR
+  INV_X1 U87 
+ .A(n46)
+N(n6)
+Inverter
+  INV_X1 U88 
+ .A(n44)
+N(n2)
+Inverter
+  INV_X1 U89 
+ .A(n29)
+N(n9)
+Inverter
+  NOR2_X1 U90 
+ .A1(n11), .A2(n10)
+N(n29)
+NOR
+  NOR2_X1 U91 
+ .A1(n7), .A2(n10)
+N(n46)
+NOR
+  INV_X1 U92 
+ .A(n22)
+N(n4)
+Inverter
+  INV_X1 U93 
+ .A(n71)
+N(n12)
+Inverter
+  NAND2_X1 U94 
+ .A1(n47), .A2(n10)
+N(n44)
+NAND
+  INV_X1 U95 
+ .A(n41)
+N(n1)
+Inverter
+  INV_X1 U96 
+ .A(n28)
+N(n8)
+Inverter
+  NOR2_X1 U97 
+ .A1(n22), .A2(n83)
+N(n59)
+NOR
+  NOR2_X1 U98 
+ .A1(n83), .A2(n81)
+N(n47)
+NOR
+  NOR2_X1 U99 
+ .A1(n6), .A2(n83)
+N(n41)
+NOR
+  NAND2_X1 U100 
+ .A1(n69), .A2(n70)
+N(n22)
+NAND
+  NAND3_X1 U101 
+ .A1(n71), .A2(n36), .A3(n80)
+N(n70)
+NAND
+  NOR3_X1 U102 
+ .A1(n12), .A2(n77), .A3(n6)
+N(n33)
+NOR
+  NOR4_X1 U103 
+ .A1(G0), .A2(n37), .A3(n38), .A4(n39)
+N(G44)
+NOR
+  NOR2_X1 U104 
+ .A1(n76), .A2(n79)
+N(n38)
+NOR
+  NOR3_X1 U105 
+ .A1(n1), .A2(n79), .A3(n82)
+N(n37)
+NOR
+  NOR3_X1 U106 
+ .A1(n17), .A2(n40), .A3(n13)
+N(n39)
+NOR
+  NOR4_X1 U107 
+ .A1(G0), .A2(n45), .A3(n46), .A4(n2)
+N(G34)
+NOR
+  NOR2_X1 U108 
+ .A1(n10), .A2(n3)
+N(n45)
+NOR
+  NOR4_X1 U109 
+ .A1(n4), .A2(n30), .A3(n29), .A4(n31)
+N(G86)
+NOR
+  NOR2_X1 U110 
+ .A1(n79), .A2(G66)
+N(n31)
+NOR
+  NOR2_X1 U111 
+ .A1(n13), .A2(n11)
+N(n30)
+NOR
+  NOR4_X1 U112 
+ .A1(n42), .A2(n43), .A3(G0), .A4(n41)
+N(G39)
+NOR
+  NOR2_X1 U113 
+ .A1(n82), .A2(n44)
+N(n43)
+NOR
+  NOR2_X1 U114 
+ .A1(n2), .A2(n11)
+N(n42)
+NOR
+  NOR2_X1 U115 
+ .A1(n79), .A2(n80)
+N(n28)
+NOR
+  NOR2_X1 U116 
+ .A1(n16), .A2(n81)
+N(n36)
+NOR
+  NOR2_X1 U117 
+ .A1(n13), .A2(n82)
+N(n71)
+NOR
+  NAND3_X1 U118 
+ .A1(n81), .A2(n13), .A3(n29)
+N(n21)
+NAND
+  NOR2_X1 U119 
+ .A1(n82), .A2(n1)
+N(n40)
+NOR
+  NOR2_X1 U120 
+ .A1(n79), .A2(n6)
+N(n68)
+NOR
+  NOR3_X1 U121 
+ .A1(n48), .A2(n47), .A3(n49)
+N(G30)
+NOR
+  NOR2_X1 U122 
+ .A1(n7), .A2(n3)
+N(n49)
+NOR
+  NOR2_X1 U123 
+ .A1(n50), .A2(G29)
+N(n48)
+NOR
+  NOR2_X1 U124 
+ .A1(G0), .A2(n51)
+N(n50)
+NOR
+  NOR2_X1 U125 
+ .A1(n82), .A2(G132)
+N(n63)
+NOR
+  NOR2_X1 U126 
+ .A1(n81), .A2(n9)
+N(n64)
+NOR
+  NOR2_X1 U127 
+ .A1(n3), .A2(G0)
+N(G29)
+NOR
+  NOR2_X1 U128 
+ .A1(n82), .A2(n10)
+N(n51)
+NOR
+  NOR2_X1 U129 
+ .A1(n73), .A2(n79)
+N(n26)
+NOR
+  NOR3_X1 U130 
+ .A1(n23), .A2(n24), .A3(n25)
+N(G92)
+NOR
+  NOR2_X1 U131 
+ .A1(n26), .A2(n82)
+N(n25)
+NOR
+  NOR3_X1 U132 
+ .A1(n13), .A2(n80), .A3(n81)
+N(n24)
+NOR
+  NAND3_X1 U133 
+ .A1(n21), .A2(n22), .A3(n27)
+N(n23)
+NAND
+  NOR3_X1 U134 
+ .A1(n56), .A2(n57), .A3(n58)
+N(G113)
+NOR
+  NOR2_X1 U135 
+ .A1(n79), .A2(G133)
+N(n58)
+NOR
+  NOR2_X1 U136 
+ .A1(n13), .A2(n7)
+N(n57)
+NOR
+  NAND3_X1 U137 
+ .A1(n9), .A2(n22), .A3(n12)
+N(n56)
+NAND
+  NOR3_X1 U138 
+ .A1(n65), .A2(n59), .A3(n66)
+N(G102)
+NOR
+  AND4_X1 U139 
+ .A1(n13), .A2(n11), .A3(n22), .A4(n78)
+N(n66)
+AND
+  NOR4_X1 U140 
+ .A1(n4), .A2(n67), .A3(n68), .A4(n11)
+N(n65)
+NOR
+  NOR2_X1 U141 
+ .A1(n78), .A2(n8)
+N(n67)
+NOR
+  NOR3_X1 U142 
+ .A1(G0), .A2(n52), .A3(n53)
+N(G125)
+NOR
+  AND2_X1 U143 
+ .A1(n17), .A2(G1)
+N(n53)
+AND
+  NOR2_X1 U144 
+ .A1(G1), .A2(n17)
+N(n52)
+NOR
+  NOR3_X1 U145 
+ .A1(G0), .A2(n54), .A3(n55)
+N(G119)
+NOR
+  AND2_X1 U146 
+ .A1(n16), .A2(G2)
+N(n55)
+AND
+  NOR2_X1 U147 
+ .A1(G2), .A2(n16)
+N(n54)
+NOR
+  NOR3_X1 U148 
+ .A1(n18), .A2(n19), .A3(n20)
+N(G98)
+NOR
+  NOR2_X1 U149 
+ .A1(n82), .A2(G117)
+N(n19)
+NOR
+  NOR2_X1 U150 
+ .A1(G117), .A2(n8)
+N(n20)
+NOR
+  NAND3_X1 U151 
+ .A1(n21), .A2(n22), .A3(n12)
+N(n18)
+NAND
+  NAND2_X1 U152 
+ .A1(n73), .A2(n28)
+N(n27)
+NAND
+  NOR2_X1 U153 
+ .A1(n59), .A2(n60)
+N(G107)
+NOR
+  NOR2_X1 U154 
+ .A1(n61), .A2(n4)
+N(n60)
+NOR
+  NOR4_X1 U155 
+ .A1(n79), .A2(n62), .A3(n63), .A4(n64)
+N(n61)
+NOR
+  NOR2_X1 U156 
+ .A1(n80), .A2(G132)
+N(n62)
+NOR
+  NOR2_X1 U157 
+ .A1(G0), .A2(n32)
+N(G56)
+NOR
+  NOR2_X1 U158 
+ .A1(n33), .A2(n34)
+N(n32)
+NOR
+  NOR2_X1 U159 
+ .A1(n72), .A2(n35)
+N(n34)
+NOR
+  AND4_X1 U160 
+ .A1(n11), .A2(n79), .A3(n36), .A4(n80)
+N(n35)
+AND
